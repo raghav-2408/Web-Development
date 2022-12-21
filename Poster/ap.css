@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 194, 249, 1) 0%,
+    rgba(3, 63, 187, 1) 100%
+  );
+  height: 100vh;
+}
+.posterArea {
+  background: whitesmoke;
+  width: 90%;
+  height: 92%;
+  margin: auto;
+  position: relative;
+  top: 4%;
+  border: #0076ce;
+  border-radius: 90px;
+  box-shadow: 0 0 35px 0px black;
+}
+.posterArea_1{
+  background: whitesmoke;
+  width: 90%;
+  height: 92%;
+  margin: auto;
+  position: relative;
+  top: 4%;
+  border: #0076ce;
+  border-radius: 90px;
+  box-shadow: 0 0 35px 0px black;
+}
+.posterArea_2{
+  background: whitesmoke;
+  width: 90%;
+  height: 92%;
+  margin: auto;
+  position: relative;
+  top: 4%;
+  border: #0076ce;
+  border-radius: 90px;
+  box-shadow: 0 0 35px 0px black;
+}
+.posterArea img{
+
+  width: 40%;
+  position: relative;
+  left: 7%;
+  top: 14vh;
+  border-radius: 25px;
+  box-shadow: 0 0 30px 1px grey;
+}
+.posterArea_1 img{
+  width: 40%;
+    position: relative;
+    left: 7%;
+    top: 14vh;
+    border-radius: 25px;
+    box-shadow: 0 0 30px 1px grey;
+}
+.posterArea_2 img{
+  width: 40%;
+    position: relative;
+    left: 7%;
+    top: 14vh;
+    border-radius: 25px;
+    box-shadow: 0 0 30px 1px grey;
+}
+
+.matter1 h1{
+    color: #0076ce;
+    font-family: "GeographWeb", Helvetica, Arial, sans-serif;
+    position: relative;
+    left: 50%;
+    bottom: 25vh;
+}
+.matter1 p{
+    font-family: "GeographWeb", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+    position: relative;
+    left: 50%;
+    bottom: 140px;   
+}

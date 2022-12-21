@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    text-align: center;
+}
+.navbar{
+    border: 2px solid white;
+    height: 90px;
+}
+.navbar nav ul li{
+    display: inline;
+    letter-spacing: 2px;
+    padding: 23px;
+    border: 2px solid white;
+    border-radius: 33px;
+    position: relative;
+    top: 35px;
+}
+li:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: .25s ease-in-out;
+}
+.navbar input{
+    position: relative;
+    float: right;
+    width: 239px;
+    right: 189px;
+    height: 27px;
+    bottom: -31px;
+  
+}
+input:hover{
+    transition: .25s ease-in-out;
+    cursor:pointer;
+}
+.navbar button{
+    float: right;
+    width: 50px;
+    background: none;
+    color: white;
+    width: 70px;
+    height: 30px;
+    left: 9vw;
+    position: relative;
+    bottom: -11px;
+
+}
+.box1{
+    border: 2px solid white;
+    height: 350px;
+}
+.box2{
+    border: 2px solid white;
+    height: 350px;
+}

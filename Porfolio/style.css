@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Cinzel:wght@500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Cinzel:wght@500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Cinzel:wght@500;600&family=Nunito:ital,wght@1,200&display=swap");
+@keyframes anim22 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.25;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes anim23 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes anime24 {
+  0% {
+    opacity: 0;
+    transform: transform(0) rotate(0deg);
+  }
+  25% {
+    rotate: (40deg);
+  }
+  50% {
+    opacity: 0.14;
+    transform: translateY(500px) rotate(90deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(800px) rotate(360deg);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  font-family: "Caveat", cursive;
+  font-family: "Cinzel", serif;
+}
+.tri-img .img3 {
+  position: relative;
+  bottom: 100px;
+  width: 100px;
+  animation: anime24 9000ms linear;
+  animation-iteration-count: infinite;
+}
+.tri-img .img4 {
+  position: relative;
+  bottom: 100px;
+  width: 100px;
+  animation: anime24 5500ms linear;
+  animation-iteration-count: infinite;
+}
+.tri-img .img5 {
+  position: relative;
+  /* bottom: 100px; */
+  width: 100px;
+  animation: anime24 20000ms linear;
+  animation-iteration-count: infinite;
+}
+.tri-img .img6 {
+  position: relative;
+  /* bottom: 100px; */
+  width: 100px;
+  animation: anime24 25000ms linear;
+  animation-iteration-count: infinite;
+}
+.tri-img .img7 {
+  position: relative;
+  /* bottom: 100px; */
+  width: 100px;
+  animation: anime24 3200ms linear;
+  animation-iteration-count: infinite;
+}
+.tri-img .img8 {
+  position: relative;
+  bottom: 100px;
+  width: 100px;
+  animation: anime24 40000ms linear;
+  animation-iteration-count: infinite;
+}
+.tri-img .img9 {
+  position: relative;
+  /* bottom: 100px; */
+  width: 100px;
+  animation: anime24 5000ms linear;
+  animation-iteration-count: infinite;
+}
+.tri-img .img10 {
+  position: relative;
+  bottom: 100px;
+  width: 100px;
+  animation: anime24 20000ms linear;
+  animation-iteration-count: infinite;
+}
+.tri-img .img11 {
+  position: relative;
+  /* bottom: 100px; */
+  width: 100px;
+  animation: anime24 5000ms linear;
+  animation-iteration-count: infinite;
+}
+.tri-img .img12 {
+  position: relative;
+  /* bottom: 100px; */
+  width: 100px;
+  animation: anime24 20000ms linear;
+  animation-iteration-count: infinite;
+}
+.tri-img .img13 {
+  position: relative;
+  /* bottom: 100px; */
+  width: 100px;
+  animation: anime24 6500ms linear;
+  animation-iteration-count: infinite;
+}
+.tri-img .img14 {
+  position: relative;
+  bottom: -100px;
+  width: 100px;
+  animation: anime24 6700ms linear;
+  animation-iteration-count: infinite;
+}
+.tri-img .img15 {
+  position: relative;
+  bottom: -100px;
+  width: 100px;
+  animation: anime24 33000ms linear;
+  animation-iteration-count: infinite;
+}
+.tri-img .img16 {
+  position: relative;
+  /* bottom: 100px; */
+  width: 100px;
+  animation: anime24 7300ms linear;
+  animation-iteration-count: infinite;
+}
+.tri-img .img17 {
+  position: relative;
+  /* bottom: 100px; */
+  width: 100px;
+  animation: anime24 7500ms linear;
+  animation-iteration-count: infinite;
+}
+.side-bar {
+  /* background-color: blue; */
+  box-shadow: 0px, 7px, 3px, blue;
+  width: 1px;
+  position: relative;
+  left: 38px;
+  height: 80vh;
+}
+.img1 img {
+  height: 30px;
+  position: relative;
+  /* bottom: 95vh; */
+  opacity: 0.9;
+  cursor: pointer;
+  animation: anim23 6250ms ease-in-out;
+}
+.img2 img {
+  opacity: 0.9;
+  height: 30px;
+  position: relative;
+  /* bottom: 95vh; */
+  left: 4px;
+  cursor: pointer;
+  animation: anim23 6250ms ease-in-out;
+}
+.img1 img:hover {
+  box-shadow: 0px 0px 83px 15px blue;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+.img2 img:hover {
+  box-shadow: 0px 0px 83px 15px blue;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+.animae-part-1 p {
+  /* background-color: aqua; */
+  bottom: 80vh;
+  position: relative;
+  font-size: 26px;
+  left: 200px;
+  color: white;
+  width: 50%;
+  height: 38px;
+  animation: anim22 2000ms ease-in-out;
+}
+.animae-p-2 p {
+  /* background-color: red; */
+  color: white;
+  position: relative;
+  font-size: 50px;
+  font-weight: 900;
+  bottom: 80vh;
+  left: 200px;
+  color: white;
+  height: 58px;
+  width: 50%;
+  animation: anim23 3500ms ease-in-out;
+}
+.animae-p-3 {
+  /* background-color: brown; */
+  color: white;
+  position: relative;
+  bottom: 80vh;
+  font-size: 50px;
+  font-weight: 900;
+  left: 200px;
+  height: 58px;
+  color: white;
+  width: 50%;
+  animation: anim23 4550ms ease-in-out;
+}
+.p4,
+.p5 {
+  color: white;
+  position: relative;
+  bottom: 77vh;
+  left: 200px;
+  color: white;
+  height: 50px;
+  width: 50%;
+  animation: anim23 5600ms ease-in-out;
+}
+.about {
+  position: relative;
+  bottom: 73vh;
+  left: 26vh;
+  animation: anim23 6250ms ease-in-out;
+}
+.about button {
+  background: none;
+  color: white;
+  border: 0.5px solid blue;
+  width: 125px;
+  padding: 6px;
+  height: 60px;
+  font-family: "Caveat", cursive;
+  font-family: "Cinzel", serif;
+}
+.about button:hover {
+  box-shadow: 0px 0px 83px 30px blue;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+.matter {
+  color: white;
+  position: relative;
+  bottom: 65vh;
+}
+.matter p {
+  position: relative;
+  left: 70px;
+  font-size: 25px;
+  font-weight: 100;
+  font-family: "Caveat", cursive;
+  font-family: "Cinzel", serif;
+  animation: anim23 7000ms ease-in-out;
+}
+.p-1 p {
+  color: white;
+  position: relative;
+  left: 100px;
+  font-size: 15px;
+  font-family: "Nunito", sans-serif;
+  animation: anim23 7000ms ease-in-out;
+  bottom: 59vh;
+}

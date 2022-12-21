@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.background {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 194, 249, 1) 0%,
+    rgba(3, 63, 187, 1) 100%
+  );
+  height: 100vh;
+}
+.posterBackground {
+  background-color: whitesmoke;
+  width: 90%;
+  height: 92%;
+  margin: auto;
+  position: relative;
+  top: 4%;
+  border: #0076ce;
+  border-radius: 90px;
+  box-shadow: 0 0 35px 0px black;
+}
+.posterBackground img {
+  position: relative;
+  top: 38px;
+}
+.posterBackground p {
+  font-family: "GeographWeb", Helvetica, Arial, sans-serif;
+  color: #0076ce;
+  font-weight: bold;
+  font-size: 40px;
+  position: absolute;
+  left: -2px;
+  top: -62px;
+}
+.matter b {
+  font-size: 20px;
+}
+.matter {
+  font-family: "GeographWeb", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  display: inline-block;
+  position: relative;
+  bottom: 20%;
+  left: 1%;
+}
+.next1 input {
+  background: none;
+  outline: none;
+  width: 25%;
+  background: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 24px;
+  position: relative;
+  top: 17vh;
+  left: 65vh;
+  height: 45px;
+  cursor: pointer;
+}
+input:hover{
+  color: white;
+  background: blue;
+  border: 2px solid red;
+}
